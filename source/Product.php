@@ -36,6 +36,10 @@ class Product {
         return $this->category;
     }
 
+    public function setTitle(string $value)
+    {
+        $this->title = $value;
+    }
     public function setPrice(int $value)
     {
         $this->price = $value;
@@ -43,5 +47,13 @@ class Product {
     public function setCategory(string $value)
     {
         $this->category = $value;
+    }
+    public function getAttributes()
+    {
+        return [
+            $this->getTitle(),
+            $this->getPrice(),
+            $this->getCategory(),
+        ];
     }
 }
