@@ -1,0 +1,12 @@
+{
+    "name": "unit/tests",
+    "require-dev": {
+        "phpunit/phpunit": "7.*.*"
+    },
+    "authors": [
+        {
+            "name": "Tao309",
+            "email": "tao309@mail.ru"
+        }
+    ]
+}
